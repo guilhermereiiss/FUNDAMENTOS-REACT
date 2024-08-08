@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: gray;
+}
+
+.container_cartao {
+  max-width: 600px; 
+  margin: 20px auto; 
+  padding: 20px;
+  border: 1px solid white; 
+  border-radius: 8px; 
+  background-color: white; 
+  font-family: Arial, sans-serif; 
+}
+
+.container_cartao img {
+  width: 50%; 
+  height: auto; 
+  border-radius: 8px; 
+  margin-bottom: 20px;
+}
+
+.container_cartao p {
+  margin-bottom: 15px; 
+  line-height: 1.6; 
+}
+
+.container_cartao span {
+  font-weight: bold; 
+}
+
+h1 {
+  text-align: center; 
+  color: black;
+  font-family: Arial, sans-serif; 
+}

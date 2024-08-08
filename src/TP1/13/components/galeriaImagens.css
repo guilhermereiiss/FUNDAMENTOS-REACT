@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.all{
+  background-color: lightgray;
+  
+}
+
+.all h1 {
+  text-align: center
+}
+
+.galeria{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+.card_galeria{
+  display: column;
+  background-color:white;
+  border: 2px solid white
+  border-radius: 8px;
+  width: 200px;
+  text-align:center;
+  padding: 10px;
+}
+
+.card_galeria img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid white;
+}
+
+.card_galeria p{
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: gray
+}
