@@ -1,5 +1,12 @@
-export default function App() {
+import ListaProdutos from "./components/listaProdutos/listaProdutos.jsx"
+
+
+const App = () => {
     return (
-        <div>Hello World</div>
+        <div>
+            <ListaProdutos />
+        </div>
     )
 }
+
+export default App

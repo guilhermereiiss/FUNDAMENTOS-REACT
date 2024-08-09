@@ -1,0 +1,38 @@
+
+.header_pr {
+    background-color: #282c34; 
+    padding: 20px;  
+    text-align: center; 
+    color: white; 
+    font-family: 'Arial', sans-serif; 
+    margin-bottom: 20px;
+}
+
+.top_header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.top_header img {
+    height: 80px; 
+    border-radius: 50%; 
+}
+
+
+.top_header h1 {
+    font-size: 2.5rem; 
+    margin: 0; 
+}
+
+
+.subTitle_header {
+    margin-top: 10px; 
+}
+
+.subTitle_header h2 {
+    font-size: 1.5rem; 
+    font-weight: 300; 
+    margin: 0; 
+}

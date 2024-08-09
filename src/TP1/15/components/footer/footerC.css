@@ -1,0 +1,50 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+.div img {
+    width: 30;
+    height: 30;
+}
+
+.contacts-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #8C8C8C;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #282C34; 
+}
+
+.contacts-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white
+     
+}
+
+.contacts-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.contact-icon:active {
+    transform: scale(0.9);
+}
+
+.contacts-icons h2 {
+    font-family: 'Arial', sans-serif;
+}

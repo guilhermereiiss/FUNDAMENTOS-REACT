@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.cartao-produto {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    max-width: 400px;
+    margin: 16px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartao-imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cartao-nome {
+    font-size: 1.2em;
+    margin: 12px 0;
+}
+
+.cartao-descricao {
+    color: #494949;
+    font-size: 0.9em;
+    margin-bottom: 12px;
+}
+
+.cartao-preco {
+    font-size: 1.1em;
+    color: #333333;
+    font-weight: bold;
+}
